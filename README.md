@@ -8,6 +8,8 @@ For detailed information, check out the [wiki](https://wiki.devnemo.com/projects
 
 ## Mod Support
 
+- Nemo's Mossy Blocks
+
 Support for additional mods may be added in the future. Suggestions are welcome!
 
 ## Downloads
