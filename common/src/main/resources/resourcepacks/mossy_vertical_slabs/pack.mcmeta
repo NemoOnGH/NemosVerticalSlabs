@@ -1,0 +1,9 @@
+{
+   "pack": {
+      "pack_format": 81,
+      "supported_formats": [81],
+      "description": {
+         "translate": "resourcePack.nemos_vertical_slabs.mossy_vertical_slabs.description"
+      }
+   }
+}

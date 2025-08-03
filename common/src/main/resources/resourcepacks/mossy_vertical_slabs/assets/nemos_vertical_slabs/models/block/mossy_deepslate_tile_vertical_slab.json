@@ -1,0 +1,8 @@
+{
+  "parent": "nemos_vertical_slabs:block/parent/vertical_slab",
+  "textures": {
+    "bottom": "nemos_mossy_blocks:block/mossy_deepslate_tiles",
+    "side": "nemos_mossy_blocks:block/mossy_deepslate_tiles",
+    "top": "nemos_mossy_blocks:block/mossy_deepslate_tiles"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "nemos_vertical_slabs:block/parent/vertical_slab_left",
+  "textures": {
+    "bottom": "nemos_mossy_blocks:block/crimson_mossy_bamboo_mosaic",
+    "side": "nemos_mossy_blocks:block/crimson_mossy_bamboo_mosaic",
+    "top": "nemos_mossy_blocks:block/crimson_mossy_bamboo_mosaic"
+  }
+}

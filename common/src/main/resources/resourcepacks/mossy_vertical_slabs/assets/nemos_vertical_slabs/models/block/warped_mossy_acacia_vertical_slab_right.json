@@ -1,0 +1,8 @@
+{
+  "parent": "nemos_vertical_slabs:block/parent/vertical_slab_right",
+  "textures": {
+    "bottom": "nemos_mossy_blocks:block/warped_mossy_acacia_planks",
+    "side": "nemos_mossy_blocks:block/warped_mossy_acacia_planks",
+    "top": "nemos_mossy_blocks:block/warped_mossy_acacia_planks"
+  }
+}
