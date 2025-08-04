@@ -6,7 +6,7 @@
 
 For detailed information, check out the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-vertical-slabs/general).
 
-## Mod Support
+## Supported Mods
 
 - Nemo's Mossy Blocks
 
@@ -27,7 +27,7 @@ Support for additional mods may be added in the future. Suggestions are welcome!
 I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
 Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosVerticalSlabs/discussions/) :)
 
-[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/devnemo)
+[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.devnemo.com)
 
 ## Get a Minecraft Server
 Looking for a Minecraft Server? Check out [BisectHosting](https://bisecthosting.com/Nemo404)! <br>
