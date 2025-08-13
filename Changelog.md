@@ -1,4 +1,4 @@
-# Changelog v2.0.1
+# Changelog v2.1
 
-## Changes
-- Updated position in gui
+## Additions
+- Added support for Biomes O' Plenty

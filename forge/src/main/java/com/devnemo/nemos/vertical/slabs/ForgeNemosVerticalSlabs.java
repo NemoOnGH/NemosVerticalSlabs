@@ -20,8 +20,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import java.util.Optional;
 
-import static com.devnemo.nemos.vertical.slabs.Constants.MOD_ID;
-import static com.devnemo.nemos.vertical.slabs.Constants.NEMOS_MOSSY_BLOCKS_MOD_ID;
+import static com.devnemo.nemos.vertical.slabs.Constants.*;
 
 @Mod(MOD_ID)
 @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -41,12 +40,17 @@ public class ForgeNemosVerticalSlabs {
     }
 
     @SubscribeEvent
-    public static void addBuiltInResourcePack(AddPackFindersEvent event) {
-        if (Services.MOD_LOADER_HELPER.isModLoaded(NEMOS_MOSSY_BLOCKS_MOD_ID)) {
-            var resourcePath = ModList.get().getModFileById(MOD_ID).getFile().findResource("resourcepacks/mossy_vertical_slabs");
+    public static void onAddPackFindersEvent(AddPackFindersEvent event) {
+        addBuiltInResourcePack(event, NEMOS_MOSSY_BLOCKS_MOD_ID, "mossy_vertical_slabs", "Mossy Vertical Slabs");
+        addBuiltInResourcePack(event, BIOMES_O_PLENTY_MOD_ID, "biomesoplenty_vertical_slabs", "Biomes O' Plenty Vertical Slabs");
+    }
+
+    private static void addBuiltInResourcePack(AddPackFindersEvent event, String modId, String packId, String packName) {
+        if (Services.MOD_LOADER_HELPER.isModLoaded(modId)) {
+            var resourcePath = ModList.get().getModFileById(MOD_ID).getFile().findResource("resourcepacks/" + packId);
             var packLocationInfo = new PackLocationInfo(
-                    "builtin/mossy_vertical_slabs",
-                    Component.literal("Mossy Vertical Slabs"),
+                    "builtin/" + packId,
+                    Component.literal(packName),
                     PackSource.BUILT_IN,
                     Optional.empty());
             var pathResourcesSupplier = new PathPackResources.PathResourcesSupplier(resourcePath);

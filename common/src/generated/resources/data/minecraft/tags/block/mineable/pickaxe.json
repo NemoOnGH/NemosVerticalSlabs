@@ -158,6 +158,46 @@
     {
       "id": "nemos_vertical_slabs:warped_mossy_brick_vertical_slab",
       "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:cut_white_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:smooth_white_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:white_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:cut_orange_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:smooth_orange_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:orange_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:cut_black_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:smooth_black_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:black_sandstone_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:brimstone_brick_vertical_slab",
+      "required": false
     }
   ]
 }

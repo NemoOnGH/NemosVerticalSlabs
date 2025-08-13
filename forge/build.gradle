@@ -12,12 +12,6 @@ tasks.named("assemble").configure {
     dependsOn("jarJar")
 }
 
-jar {
-    manifest {
-        attributes["MixinConfigs"] = "${mod_id}.mixins.json"
-    }
-}
-
 minecraft {
     mappings channel: 'official', version: minecraft_version
 
@@ -109,6 +103,12 @@ dependencies {
         jarJar.ranged(it, "[0.4.1,)")
     }
     compileOnly fg.deobf("maven.modrinth:nemos-mossy-blocks:${nemos_mossy_blocks_version}-forge")
+    compileOnly fg.deobf("maven.modrinth:biomes-o-plenty:${biomes_o_plenty_version}-neoforge")
+    compileOnly fg.deobf("maven.modrinth:terrablender:${terrablender_version}-neoforge")
+    compileOnly fg.deobf("maven.modrinth:glitchcore:${glitchcore_version}-neoforge")
+    compileOnly fg.deobf("com.electronwill.night-config:toml:${night_config_version}")
+    compileOnly fg.deobf("com.electronwill.night-config:core:${night_config_version}")
+    compileOnly fg.deobf("net.jodah:typetools:${typetools_version}")
 }
 
 publishing {

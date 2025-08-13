@@ -1,42 +1,63 @@
 #!/bin/bash
 
-EXCLUDE_PATTERNS=(
-  "mossy_cobblestone_vertical_slab"
-  "mossy_stone_brick_vertical_slab"
-)
-
-is_excluded() {
-  local filename="$1"
-  for pattern in "${EXCLUDE_PATTERNS[@]}"; do
-    if [[ "$filename" == "$pattern"* ]]; then
-      return 0
-    fi
-  done
-  return 1
-}
-
 move_files() {
-  local SRC="$1"
-  local DEST="$2"
+  local MOD_ID="$1"
+  local DEST_NAME="$2"
 
-  mkdir -p "$DEST"
+  local SRC_BASE="../common/src/generated/resources"
+  local DEST_BASE="../common/src/main/resources/resourcepacks/${DEST_NAME}"
 
-  find "$SRC" -type f -name "*mossy*" | while read -r FILE; do
-    BASENAME=$(basename "$FILE")
+  local BLOCK_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/models/block"
+  local ITEM_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/items"
 
-    if is_excluded "$BASENAME"; then
-      echo "Skipping excluded: $BASENAME"
-      continue
-    fi
+  local DATA_FOLDERS=("data/nemos_vertical_slabs/loot_table/blocks"
+                      "data/nemos_vertical_slabs/advancement/recipes/building_blocks"
+                      "data/nemos_vertical_slabs/recipe")
 
-    echo "Moving: $FILE -> $DEST/"
-    mv "$FILE" "$DEST/"
+  # Step 1: find block files containing the ID
+  BLOCK_FILES=()
+  while read -r FILE; do
+      BASENAME=$(basename "$FILE")
+      BLOCK_FILES+=("$BASENAME")
+  done < <(grep -rl "$MOD_ID" "$BLOCK_FOLDER")
+
+  # Step 2: move blocks
+  for FILE in "${BLOCK_FILES[@]}"; do
+      SRC="$BLOCK_FOLDER/$FILE"
+      DEST="$DEST_BASE/assets/nemos_vertical_slabs/models/block/$FILE"
+      mkdir -p "$(dirname "$DEST")"
+      echo "Moving block: $SRC -> $DEST"
+      mv "$SRC" "$DEST"
+  done
+
+  # Step 3: move matching items
+  for FILE in "${BLOCK_FILES[@]}"; do
+      SRC="$ITEM_FOLDER/$FILE"
+      DEST="$DEST_BASE/assets/nemos_vertical_slabs/items/$FILE"
+      if [ -f "$SRC" ]; then
+          mkdir -p "$(dirname "$DEST")"
+          echo "Moving item: $SRC -> $DEST"
+          mv "$SRC" "$DEST"
+      fi
+  done
+
+  # Step 4: move data files containing the ID
+  for folder in "${DATA_FOLDERS[@]}"; do
+      SRC="$SRC_BASE/$folder"
+      DEST="$DEST_BASE/$folder"
+
+      [ ! -d "$SRC" ] && continue
+
+      grep -rl "$MOD_ID" "$SRC" | while read -r FILE; do
+          REL_PATH="${FILE#$SRC/}"
+          DEST_PATH="$DEST/$(dirname "$REL_PATH")"
+          mkdir -p "$DEST_PATH"
+          echo "Moving data: $FILE -> $DEST_PATH/"
+          mv "$FILE" "$DEST_PATH/"
+      done
   done
 }
 
-move_files "../common/src/generated/resources/assets/nemos_vertical_slabs/blockstates" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/assets/nemos_vertical_slabs/blockstates"
-move_files "../common/src/generated/resources/assets/nemos_vertical_slabs/items" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/assets/nemos_vertical_slabs/items"
-move_files "../common/src/generated/resources/assets/nemos_vertical_slabs/models/block" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/assets/nemos_vertical_slabs/models/block"
-move_files "../common/src/generated/resources/data/nemos_vertical_slabs/loot_table/blocks" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/data/nemos_vertical_slabs/loot_table/blocks"
-move_files "../common/src/generated/resources/data/nemos_vertical_slabs/advancement/recipes/building_blocks" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/data/nemos_vertical_slabs/advancement/recipes/building_blocks"
-move_files "../common/src/generated/resources/data/nemos_vertical_slabs/recipe" "../common/src/main/resources/resourcepacks/mossy_vertical_slabs/data/nemos_vertical_slabs/recipe"
+# Example usage
+move_files "nemos_mossy_blocks" "mossy_vertical_slabs"
+move_files "biomesoplenty" "biomesoplenty_vertical_slabs"

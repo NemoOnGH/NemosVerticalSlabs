@@ -152,6 +152,30 @@ public class NemosVerticalItems {
     public static final Supplier<Item> WARPED_MOSSY_TUFF_VERTICAL_SLAB = registerBlockItem("warped_mossy_tuff_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_TUFF_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerBlockItem("warped_mossy_tuff_brick_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
 
+    public static final Supplier<Item> CUT_WHITE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("cut_white_sandstone_vertical_slab", NemosVerticalBlocks.CUT_WHITE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("smooth_white_sandstone_vertical_slab", NemosVerticalBlocks.SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> WHITE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("white_sandstone_vertical_slab", NemosVerticalBlocks.WHITE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> CUT_ORANGE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("cut_orange_sandstone_vertical_slab", NemosVerticalBlocks.CUT_ORANGE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> SMOOTH_ORANGE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("smooth_orange_sandstone_vertical_slab", NemosVerticalBlocks.SMOOTH_ORANGE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> ORANGE_SANDSTONE_VERTICAL_SLAB = registerBlockItem("orange_sandstone_vertical_slab", NemosVerticalBlocks.ORANGE_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> CUT_BLACK_SANDSTONE_VERTICAL_SLAB = registerBlockItem("cut_black_sandstone_vertical_slab", NemosVerticalBlocks.CUT_BLACK_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB = registerBlockItem("smooth_black_sandstone_vertical_slab", NemosVerticalBlocks.SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> BLACK_SANDSTONE_VERTICAL_SLAB = registerBlockItem("black_sandstone_vertical_slab", NemosVerticalBlocks.BLACK_SANDSTONE_VERTICAL_SLAB);
+    public static final Supplier<Item> BRIMSTONE_BRICK_VERTICAL_SLAB = registerBlockItem("brimstone_brick_vertical_slab", NemosVerticalBlocks.BRIMSTONE_BRICK_VERTICAL_SLAB);
+    public static final Supplier<Item> FIR_VERTICAL_SLAB = registerBlockItem("fir_vertical_slab", NemosVerticalBlocks.FIR_VERTICAL_SLAB);
+    public static final Supplier<Item> PINE_VERTICAL_SLAB = registerBlockItem("pine_vertical_slab", NemosVerticalBlocks.PINE_VERTICAL_SLAB);
+    public static final Supplier<Item> MAPLE_VERTICAL_SLAB = registerBlockItem("maple_vertical_slab", NemosVerticalBlocks.MAPLE_VERTICAL_SLAB);
+    public static final Supplier<Item> REDWOOD_VERTICAL_SLAB = registerBlockItem("redwood_vertical_slab", NemosVerticalBlocks.REDWOOD_VERTICAL_SLAB);
+    public static final Supplier<Item> MAHOGANY_VERTICAL_SLAB = registerBlockItem("mahogany_vertical_slab", NemosVerticalBlocks.MAHOGANY_VERTICAL_SLAB);
+    public static final Supplier<Item> JACARANDA_VERTICAL_SLAB = registerBlockItem("jacaranda_vertical_slab", NemosVerticalBlocks.JACARANDA_VERTICAL_SLAB);
+    public static final Supplier<Item> PALM_VERTICAL_SLAB = registerBlockItem("palm_vertical_slab", NemosVerticalBlocks.PALM_VERTICAL_SLAB);
+    public static final Supplier<Item> WILLOW_VERTICAL_SLAB = registerBlockItem("willow_vertical_slab", NemosVerticalBlocks.WILLOW_VERTICAL_SLAB);
+    public static final Supplier<Item> DEAD_VERTICAL_SLAB = registerBlockItem("dead_vertical_slab", NemosVerticalBlocks.DEAD_VERTICAL_SLAB);
+    public static final Supplier<Item> MAGIC_VERTICAL_SLAB = registerBlockItem("magic_vertical_slab", NemosVerticalBlocks.MAGIC_VERTICAL_SLAB);
+    public static final Supplier<Item> UMBRAN_VERTICAL_SLAB = registerBlockItem("umbran_vertical_slab", NemosVerticalBlocks.UMBRAN_VERTICAL_SLAB);
+    public static final Supplier<Item> HELLBARK_VERTICAL_SLAB = registerBlockItem("hellbark_vertical_slab", NemosVerticalBlocks.HELLBARK_VERTICAL_SLAB);
+    public static final Supplier<Item> EMPYREAL_VERTICAL_SLAB = registerBlockItem("empyreal_vertical_slab", NemosVerticalBlocks.EMPYREAL_VERTICAL_SLAB);
+    
     public static void init() {}
 
     private static Supplier<Item> registerBlockItem(String id, Supplier<Block> blockSupplier) {

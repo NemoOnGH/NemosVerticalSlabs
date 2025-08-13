@@ -160,5 +160,30 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(NemosVerticalBlocks.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB.get(), "Warped-Mossy Tuff Brick Vertical Slab");
         translationBuilder.add(NemosVerticalBlocks.WARPED_MOSSY_BRICK_VERTICAL_SLAB.get(), "Warped-Mossy Brick Vertical Slab");
         translationBuilder.add("resourcePack.nemos_vertical_slabs.mossy_vertical_slabs.description", "Contains all assets required for Mossy Vertical Slabs.");
+
+        translationBuilder.add(NemosVerticalBlocks.CUT_WHITE_SANDSTONE_VERTICAL_SLAB.get(), "Cut White Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB.get(), "Smooth White Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.WHITE_SANDSTONE_VERTICAL_SLAB.get(), "White Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.CUT_ORANGE_SANDSTONE_VERTICAL_SLAB.get(), "Cut Orange Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.SMOOTH_ORANGE_SANDSTONE_VERTICAL_SLAB.get(), "Smooth Orange Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.ORANGE_SANDSTONE_VERTICAL_SLAB.get(), "Orange Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.CUT_BLACK_SANDSTONE_VERTICAL_SLAB.get(), "Cut Black Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB.get(), "Smooth Black Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.BLACK_SANDSTONE_VERTICAL_SLAB.get(), "Black Sandstone Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.BRIMSTONE_BRICK_VERTICAL_SLAB.get(), "Brimstone Brick Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.FIR_VERTICAL_SLAB.get(), "Fir Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.PINE_VERTICAL_SLAB.get(), "Pine Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.MAPLE_VERTICAL_SLAB.get(), "Maple Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.REDWOOD_VERTICAL_SLAB.get(), "Redwood Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.MAHOGANY_VERTICAL_SLAB.get(), "Mahogany Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.JACARANDA_VERTICAL_SLAB.get(), "Jacaranda Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.PALM_VERTICAL_SLAB.get(), "Palm Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.WILLOW_VERTICAL_SLAB.get(), "Willow Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.DEAD_VERTICAL_SLAB.get(), "Dead Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.MAGIC_VERTICAL_SLAB.get(), "Magic Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.UMBRAN_VERTICAL_SLAB.get(), "Umbran Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.HELLBARK_VERTICAL_SLAB.get(), "Hellbark Vertical Slab");
+        translationBuilder.add(NemosVerticalBlocks.EMPYREAL_VERTICAL_SLAB.get(), "Empyreal Vertical Slab");
+        translationBuilder.add("resourcePack.nemos_vertical_slabs.biomesoplenty_vertical_slabs.description", "Contains all assets required for Biomes O' Plenty Vertical Slabs.");
     }
 }

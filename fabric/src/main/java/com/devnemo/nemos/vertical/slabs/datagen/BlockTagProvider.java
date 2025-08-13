@@ -86,7 +86,20 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_BAMBOO_VERTICAL_SLAB.get()))
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB.get()))
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_CRIMSON_VERTICAL_SLAB.get()))
-                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_WARPED_VERTICAL_SLAB.get()));
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_WARPED_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.FIR_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.PINE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.MAPLE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.REDWOOD_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.MAHOGANY_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.JACARANDA_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.PALM_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WILLOW_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.DEAD_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.MAGIC_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.UMBRAN_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.HELLBARK_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.EMPYREAL_VERTICAL_SLAB.get()));
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(NemosVerticalBlocks.STONE_VERTICAL_SLAB.get())
@@ -165,7 +178,17 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB.get()))
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_TUFF_VERTICAL_SLAB.get()))
                 .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB.get()))
-                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_BRICK_VERTICAL_SLAB.get()));
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WARPED_MOSSY_BRICK_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.CUT_WHITE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.WHITE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.CUT_ORANGE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.SMOOTH_ORANGE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.ORANGE_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.CUT_BLACK_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.BLACK_SANDSTONE_VERTICAL_SLAB.get()))
+                .addOptionalElement(getResourceLocationFromBlockRegistry(NemosVerticalBlocks.BRIMSTONE_BRICK_VERTICAL_SLAB.get()));
     }
 
     private ResourceLocation getResourceLocationFromBlockRegistry(Block block) {

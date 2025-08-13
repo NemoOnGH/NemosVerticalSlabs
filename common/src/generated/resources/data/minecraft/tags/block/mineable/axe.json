@@ -220,6 +220,58 @@
     {
       "id": "nemos_vertical_slabs:warped_mossy_warped_vertical_slab",
       "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:fir_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:pine_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:maple_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:redwood_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:mahogany_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:jacaranda_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:palm_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:willow_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:dead_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:magic_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:umbran_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:hellbark_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "nemos_vertical_slabs:empyreal_vertical_slab",
+      "required": false
     }
   ]
 }

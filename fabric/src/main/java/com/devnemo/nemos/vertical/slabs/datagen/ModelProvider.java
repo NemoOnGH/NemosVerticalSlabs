@@ -1,5 +1,6 @@
 package com.devnemo.nemos.vertical.slabs.datagen;
 
+import biomesoplenty.api.block.BOPBlocks;
 import com.devnemo.nemos.mossy.blocks.world.level.block.NemosMossyBlocks;
 import com.devnemo.nemos.vertical.slabs.client.data.models.model.NemosVerticalModelTemplates;
 import com.devnemo.nemos.vertical.slabs.world.level.block.NemosVerticalBlocks;
@@ -175,6 +176,30 @@ public class ModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockModelGenerators, NemosMossyBlocks.WARPED_MOSSY_TUFF.get(), NemosVerticalBlocks.WARPED_MOSSY_TUFF_VERTICAL_SLAB.get());
         generateVerticalSlabBlockModel(blockModelGenerators, NemosMossyBlocks.WARPED_MOSSY_TUFF_BRICKS.get(), NemosVerticalBlocks.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB.get());
         generateVerticalSlabBlockModel(blockModelGenerators, NemosMossyBlocks.WARPED_MOSSY_BRICKS.get(), NemosVerticalBlocks.WARPED_MOSSY_BRICK_VERTICAL_SLAB.get());
+
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BOPBlocks.CUT_WHITE_SANDSTONE, BOPBlocks.WHITE_SANDSTONE, NemosVerticalBlocks.CUT_WHITE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.WHITE_SANDSTONE, BOPBlocks.SMOOTH_WHITE_SANDSTONE, TOP_SUFFIX, NemosVerticalBlocks.SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.WHITE_SANDSTONE, BOPBlocks.WHITE_SANDSTONE, TOP_SUFFIX, "", BOTTOM_SUFFIX, NemosVerticalBlocks.WHITE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BOPBlocks.CUT_ORANGE_SANDSTONE, BOPBlocks.ORANGE_SANDSTONE, NemosVerticalBlocks.CUT_ORANGE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.ORANGE_SANDSTONE, BOPBlocks.SMOOTH_ORANGE_SANDSTONE, TOP_SUFFIX, NemosVerticalBlocks.SMOOTH_ORANGE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.ORANGE_SANDSTONE, BOPBlocks.ORANGE_SANDSTONE, TOP_SUFFIX, "", BOTTOM_SUFFIX, NemosVerticalBlocks.ORANGE_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BOPBlocks.CUT_BLACK_SANDSTONE, BOPBlocks.BLACK_SANDSTONE, NemosVerticalBlocks.CUT_BLACK_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.BLACK_SANDSTONE, BOPBlocks.SMOOTH_BLACK_SANDSTONE, TOP_SUFFIX, NemosVerticalBlocks.SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.BLACK_SANDSTONE, BOPBlocks.BLACK_SANDSTONE, TOP_SUFFIX, "", BOTTOM_SUFFIX, NemosVerticalBlocks.BLACK_SANDSTONE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.BRIMSTONE_BRICKS, NemosVerticalBlocks.BRIMSTONE_BRICK_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.FIR_PLANKS, NemosVerticalBlocks.FIR_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.PINE_PLANKS, NemosVerticalBlocks.PINE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.MAPLE_PLANKS, NemosVerticalBlocks.MAPLE_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.REDWOOD_PLANKS, NemosVerticalBlocks.REDWOOD_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.MAHOGANY_PLANKS, NemosVerticalBlocks.MAHOGANY_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.JACARANDA_PLANKS, NemosVerticalBlocks.JACARANDA_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.PALM_PLANKS, NemosVerticalBlocks.PALM_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.WILLOW_PLANKS, NemosVerticalBlocks.WILLOW_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.DEAD_PLANKS, NemosVerticalBlocks.DEAD_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.MAGIC_PLANKS, NemosVerticalBlocks.MAGIC_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.UMBRAN_PLANKS, NemosVerticalBlocks.UMBRAN_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.HELLBARK_PLANKS, NemosVerticalBlocks.HELLBARK_VERTICAL_SLAB.get());
+        generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.EMPYREAL_PLANKS, NemosVerticalBlocks.EMPYREAL_VERTICAL_SLAB.get());
     }
 
     @Override
