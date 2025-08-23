@@ -18,7 +18,6 @@ public class NemosVerticalItems {
     public static final Supplier<Item> DARK_OAK_VERTICAL_SLAB = registerBlockItem("dark_oak_vertical_slab", NemosVerticalBlocks.DARK_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> MANGROVE_VERTICAL_SLAB = registerBlockItem("mangrove_vertical_slab", NemosVerticalBlocks.MANGROVE_VERTICAL_SLAB);
     public static final Supplier<Item> CHERRY_VERTICAL_SLAB = registerBlockItem("cherry_vertical_slab", NemosVerticalBlocks.CHERRY_VERTICAL_SLAB);
-    public static final Supplier<Item> PALE_OAK_VERTICAL_SLAB = registerBlockItem("pale_oak_vertical_slab", NemosVerticalBlocks.PALE_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> BAMBOO_VERTICAL_SLAB = registerBlockItem("bamboo_vertical_slab", NemosVerticalBlocks.BAMBOO_VERTICAL_SLAB);
     public static final Supplier<Item> BAMBOO_MOSAIC_VERTICAL_SLAB = registerBlockItem("bamboo_mosaic_vertical_slab", NemosVerticalBlocks.BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_VERTICAL_SLAB = registerBlockItem("crimson_vertical_slab", NemosVerticalBlocks.CRIMSON_VERTICAL_SLAB);
@@ -79,7 +78,6 @@ public class NemosVerticalItems {
     public static final Supplier<Item> MOSSY_DARK_OAK_VERTICAL_SLAB = registerBlockItem("mossy_dark_oak_vertical_slab", NemosVerticalBlocks.MOSSY_DARK_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> MOSSY_MANGROVE_VERTICAL_SLAB = registerBlockItem("mossy_mangrove_vertical_slab", NemosVerticalBlocks.MOSSY_MANGROVE_VERTICAL_SLAB);
     public static final Supplier<Item> MOSSY_CHERRY_VERTICAL_SLAB = registerBlockItem("mossy_cherry_vertical_slab", NemosVerticalBlocks.MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Supplier<Item> MOSSY_PALE_OAK_VERTICAL_SLAB = registerBlockItem("mossy_pale_oak_vertical_slab", NemosVerticalBlocks.MOSSY_PALE_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> MOSSY_BAMBOO_VERTICAL_SLAB = registerBlockItem("mossy_bamboo_vertical_slab", NemosVerticalBlocks.MOSSY_BAMBOO_VERTICAL_SLAB);
     public static final Supplier<Item> MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerBlockItem("mossy_bamboo_mosaic_vertical_slab", NemosVerticalBlocks.MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Supplier<Item> MOSSY_CRIMSON_VERTICAL_SLAB = registerBlockItem("mossy_crimson_vertical_slab", NemosVerticalBlocks.MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -99,7 +97,6 @@ public class NemosVerticalItems {
     public static final Supplier<Item> PALE_MOSSY_DARK_OAK_VERTICAL_SLAB = registerBlockItem("pale_mossy_dark_oak_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_DARK_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> PALE_MOSSY_MANGROVE_VERTICAL_SLAB = registerBlockItem("pale_mossy_mangrove_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
     public static final Supplier<Item> PALE_MOSSY_CHERRY_VERTICAL_SLAB = registerBlockItem("pale_mossy_cherry_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Supplier<Item> PALE_MOSSY_PALE_OAK_VERTICAL_SLAB = registerBlockItem("pale_mossy_pale_oak_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_PALE_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> PALE_MOSSY_BAMBOO_VERTICAL_SLAB = registerBlockItem("pale_mossy_bamboo_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_BAMBOO_VERTICAL_SLAB);
     public static final Supplier<Item> PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerBlockItem("pale_mossy_bamboo_mosaic_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Supplier<Item> PALE_MOSSY_CRIMSON_VERTICAL_SLAB = registerBlockItem("pale_mossy_crimson_vertical_slab", NemosVerticalBlocks.PALE_MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -119,7 +116,6 @@ public class NemosVerticalItems {
     public static final Supplier<Item> CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB = registerBlockItem("crimson_mossy_dark_oak_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB = registerBlockItem("crimson_mossy_mangrove_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB = registerBlockItem("crimson_mossy_cherry_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Supplier<Item> CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB = registerBlockItem("crimson_mossy_pale_oak_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB = registerBlockItem("crimson_mossy_bamboo_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerBlockItem("crimson_mossy_bamboo_mosaic_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Supplier<Item> CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB = registerBlockItem("crimson_mossy_crimson_vertical_slab", NemosVerticalBlocks.CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -139,7 +135,6 @@ public class NemosVerticalItems {
     public static final Supplier<Item> WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB = registerBlockItem("warped_mossy_dark_oak_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_MANGROVE_VERTICAL_SLAB = registerBlockItem("warped_mossy_mangrove_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_MANGROVE_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_CHERRY_VERTICAL_SLAB = registerBlockItem("warped_mossy_cherry_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Supplier<Item> WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB = registerBlockItem("warped_mossy_pale_oak_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_BAMBOO_VERTICAL_SLAB = registerBlockItem("warped_mossy_bamboo_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_BAMBOO_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerBlockItem("warped_mossy_bamboo_mosaic_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Supplier<Item> WARPED_MOSSY_CRIMSON_VERTICAL_SLAB = registerBlockItem("warped_mossy_crimson_vertical_slab", NemosVerticalBlocks.WARPED_MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -183,6 +178,6 @@ public class NemosVerticalItems {
             return null;
         }
 
-        return Services.REGISTRY_HELPER.registerItem(id, properties -> new BlockItem(blockSupplier.get(), properties), new Item.Properties().useBlockDescriptionPrefix());
+        return Services.REGISTRY_HELPER.registerItem(id, properties -> new BlockItem(blockSupplier.get(), properties), new Item.Properties());
     }
 }

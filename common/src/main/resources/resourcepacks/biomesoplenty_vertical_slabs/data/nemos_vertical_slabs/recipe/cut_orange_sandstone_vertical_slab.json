@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "biomesoplenty:cut_orange_sandstone"
+    "#": {
+      "item": "biomesoplenty:cut_orange_sandstone"
+    }
   },
   "pattern": [
     "#",

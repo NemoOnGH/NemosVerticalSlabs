@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "biomesoplenty:palm_planks"
+    "#": {
+      "item": "biomesoplenty:palm_planks"
+    }
   },
   "pattern": [
     "#",

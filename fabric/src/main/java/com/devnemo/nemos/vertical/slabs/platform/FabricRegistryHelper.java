@@ -20,22 +20,22 @@ public class FabricRegistryHelper implements IRegistryHelper {
 
     @Override
     public Supplier<Block> registerBlock(String id, Function<BlockBehaviour.Properties, Block> function, BlockBehaviour.Properties properties) {
-        return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties.setId(key)));
+        return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties));
     }
 
     @Override
     public Supplier<Block> registerBlock(String id, Function<BlockBehaviour.Properties, Block> function, Supplier<BlockBehaviour.Properties> properties) {
-        return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties.get().setId(key)));
+        return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties.get()));
     }
 
     @Override
     public Supplier<Item> registerItem(String id, Function<Item.Properties, Item> function, Item.Properties properties) {
-        return registerSupplierWithResourceKey(BuiltInRegistries.ITEM, id, key -> function.apply(properties.setId(key)));
+        return registerSupplierWithResourceKey(BuiltInRegistries.ITEM, id, key -> function.apply(properties));
     }
 
     @Override
     public Supplier<Item> registerItem(String id, Function<Item.Properties, Item> function, Supplier<Item.Properties> properties) {
-        return  registerSupplierWithResourceKey(BuiltInRegistries.ITEM, id, key -> function.apply(properties.get().setId(key)));
+        return  registerSupplierWithResourceKey(BuiltInRegistries.ITEM, id, key -> function.apply(properties.get()));
     }
 
     @Override

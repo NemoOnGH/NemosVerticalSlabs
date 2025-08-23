@@ -8,7 +8,7 @@ move_files() {
   local DEST_BASE="../common/src/main/resources/resourcepacks/${DEST_NAME}"
 
   local BLOCK_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/models/block"
-  local ITEM_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/items"
+  local ITEM_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/models/item"
 
   local DATA_FOLDERS=("data/nemos_vertical_slabs/loot_table/blocks"
                       "data/nemos_vertical_slabs/advancement/recipes/building_blocks"
@@ -33,12 +33,10 @@ move_files() {
   # Step 3: move matching items
   for FILE in "${BLOCK_FILES[@]}"; do
       SRC="$ITEM_FOLDER/$FILE"
-      DEST="$DEST_BASE/assets/nemos_vertical_slabs/items/$FILE"
-      if [ -f "$SRC" ]; then
-          mkdir -p "$(dirname "$DEST")"
-          echo "Moving item: $SRC -> $DEST"
-          mv "$SRC" "$DEST"
-      fi
+      DEST="$DEST_BASE/assets/nemos_vertical_slabs/models/item/$FILE"
+      mkdir -p "$(dirname "$DEST")"
+      echo "Moving block: $SRC -> $DEST"
+      mv "$SRC" "$DEST"
   done
 
   # Step 4: move data files containing the ID

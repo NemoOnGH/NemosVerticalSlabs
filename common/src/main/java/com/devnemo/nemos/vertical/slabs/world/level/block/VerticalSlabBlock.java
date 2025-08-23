@@ -6,14 +6,11 @@ import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.util.RandomSource;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -223,33 +220,33 @@ public class VerticalSlabBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public boolean canPlaceLiquid(
-            @Nullable LivingEntity filler,
-            @NotNull BlockGetter blockGetter,
+            @Nullable Player player,
+            @NotNull BlockGetter level,
             @NotNull BlockPos pos,
             @NotNull BlockState state,
             @NotNull Fluid fluid
     ) {
         if (isDoubleVerticalSlab(state)) {
-            return SimpleWaterloggedBlock.super.canPlaceLiquid(filler, blockGetter, pos, state, fluid);
+            return SimpleWaterloggedBlock.super.canPlaceLiquid(player, level, pos, state, fluid);
         }
+
         return false;
     }
 
     @Override
     protected @NotNull BlockState updateShape(
-            BlockState state,
-            @NotNull LevelReader levelReader,
-            @NotNull ScheduledTickAccess scheduledTickAccess,
-            @NotNull BlockPos pos,
+            @NotNull BlockState state,
             @NotNull Direction direction,
-            @NotNull BlockPos neighborPos,
             @NotNull BlockState neighborState,
-            @NotNull RandomSource randomSource
+            @NotNull LevelAccessor level,
+            @NotNull BlockPos pos,
+            @NotNull BlockPos neighborPos
     ) {
         if (state.getValue(WATERLOGGED)) {
-            scheduledTickAccess.scheduleTick(pos, Fluids.WATER, Fluids.WATER.getTickDelay(levelReader));
+            level.scheduleTick(pos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
         }
-        return super.updateShape(state, levelReader, scheduledTickAccess, pos, direction, neighborPos, neighborState, randomSource);
+
+        return super.updateShape(state, direction, neighborState, level, pos, neighborPos);
     }
 
     @Override

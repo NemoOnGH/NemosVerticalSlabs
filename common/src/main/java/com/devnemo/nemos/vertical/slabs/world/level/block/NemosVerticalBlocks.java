@@ -40,9 +40,6 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> CHERRY_VERTICAL_SLAB = registerVerticalSlab(
             "cherry_vertical_slab",
             CHERRY_SLAB);
-    public static final Supplier<Block> PALE_OAK_VERTICAL_SLAB = registerVerticalSlab(
-            "pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
     public static final Supplier<Block> BAMBOO_VERTICAL_SLAB = registerVerticalSlab(
             "bamboo_vertical_slab",
             BAMBOO_SLAB);
@@ -221,9 +218,6 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_cherry_vertical_slab",
             CHERRY_SLAB);
-    public static final Supplier<Block> MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
-            "mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
     public static final Supplier<Block> MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_bamboo_vertical_slab",
             BAMBOO_SLAB);
@@ -281,9 +275,6 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> PALE_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_cherry_vertical_slab",
             CHERRY_SLAB);
-    public static final Supplier<Block> PALE_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
-            "pale_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
     public static final Supplier<Block> PALE_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_bamboo_vertical_slab",
             BAMBOO_SLAB);
@@ -341,9 +332,6 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_cherry_vertical_slab",
             CHERRY_SLAB);
-    public static final Supplier<Block> CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
-            "crimson_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
     public static final Supplier<Block> CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_bamboo_vertical_slab",
             BAMBOO_SLAB);
@@ -401,9 +389,6 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> WARPED_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_cherry_vertical_slab",
             CHERRY_SLAB);
-    public static final Supplier<Block> WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
-            "warped_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
     public static final Supplier<Block> WARPED_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_bamboo_vertical_slab",
             BAMBOO_SLAB);

@@ -35,7 +35,6 @@ public class NemosVerticalCreativeModeTabs {
         addDisplayItem(NemosVerticalItems.DARK_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MANGROVE_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CHERRY_VERTICAL_SLAB);
-        addDisplayItem(NemosVerticalItems.PALE_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.BAMBOO_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.BAMBOO_MOSAIC_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_VERTICAL_SLAB);
@@ -96,7 +95,6 @@ public class NemosVerticalCreativeModeTabs {
         addDisplayItem(NemosVerticalItems.MOSSY_DARK_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MOSSY_MANGROVE_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MOSSY_CHERRY_VERTICAL_SLAB);
-        addDisplayItem(NemosVerticalItems.MOSSY_PALE_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MOSSY_BAMBOO_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -116,7 +114,6 @@ public class NemosVerticalCreativeModeTabs {
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_DARK_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_CHERRY_VERTICAL_SLAB);
-        addDisplayItem(NemosVerticalItems.PALE_MOSSY_PALE_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_BAMBOO_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.PALE_MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -136,7 +133,6 @@ public class NemosVerticalCreativeModeTabs {
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB);
-        addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -156,7 +152,6 @@ public class NemosVerticalCreativeModeTabs {
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_MANGROVE_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_CHERRY_VERTICAL_SLAB);
-        addDisplayItem(NemosVerticalItems.WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_BAMBOO_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
         addDisplayItem(NemosVerticalItems.WARPED_MOSSY_CRIMSON_VERTICAL_SLAB);

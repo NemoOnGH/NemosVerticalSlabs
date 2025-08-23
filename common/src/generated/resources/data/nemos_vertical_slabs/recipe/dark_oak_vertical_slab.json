@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "minecraft:dark_oak_planks"
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    }
   },
   "pattern": [
     "#",

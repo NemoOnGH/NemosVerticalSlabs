@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:blackstone",
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
   "result": {
     "count": 2,
     "id": "nemos_vertical_slabs:polished_blackstone_brick_vertical_slab"

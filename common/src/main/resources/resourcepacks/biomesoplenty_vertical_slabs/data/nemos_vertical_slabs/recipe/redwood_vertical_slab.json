@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "biomesoplenty:redwood_planks"
+    "#": {
+      "item": "biomesoplenty:redwood_planks"
+    }
   },
   "pattern": [
     "#",
