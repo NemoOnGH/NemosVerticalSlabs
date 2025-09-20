@@ -3,6 +3,7 @@ package com.devnemo.nemos.vertical.slabs.world.level.block;
 import com.devnemo.nemos.vertical.slabs.platform.Services;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.WeatheringCopper;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -14,7 +15,7 @@ import static com.devnemo.nemos.vertical.slabs.Constants.BIOMES_O_PLENTY_MOD_ID;
 import static com.devnemo.nemos.vertical.slabs.Constants.NEMOS_MOSSY_BLOCKS_MOD_ID;
 import static net.minecraft.world.level.block.Blocks.*;
 
-public class NemosVerticalBlocks {
+public class VerticalSlabBlocks {
 
     public static final Supplier<Block> OAK_VERTICAL_SLAB = registerVerticalSlab(
             "oak_vertical_slab",
@@ -172,17 +173,21 @@ public class NemosVerticalBlocks {
     public static final Supplier<Block> SMOOTH_QUARTZ_VERTICAL_SLAB = registerVerticalSlab(
             "smooth_quartz_vertical_slab",
             SMOOTH_QUARTZ_SLAB);
-    public static final Supplier<Block> CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
+    public static final Supplier<Block> CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "cut_copper_vertical_slab",
+            WeatheringCopper.WeatherState.UNAFFECTED,
             CUT_COPPER_SLAB);
-    public static final Supplier<Block> EXPOSED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
+    public static final Supplier<Block> EXPOSED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "exposed_cut_copper_vertical_slab",
+            WeatheringCopper.WeatherState.EXPOSED,
             EXPOSED_CUT_COPPER_SLAB);
-    public static final Supplier<Block> WEATHERED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
+    public static final Supplier<Block> WEATHERED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "weathered_cut_copper_vertical_slab",
+            WeatheringCopper.WeatherState.WEATHERED,
             WEATHERED_CUT_COPPER_SLAB);
-    public static final Supplier<Block> OXIDIZED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
+    public static final Supplier<Block> OXIDIZED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "oxidized_cut_copper_vertical_slab",
+            WeatheringCopper.WeatherState.OXIDIZED,
             OXIDIZED_CUT_COPPER_SLAB);
     public static final Supplier<Block> WAXED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
             "waxed_cut_copper_vertical_slab",
@@ -586,32 +591,31 @@ public class NemosVerticalBlocks {
         }
     }
 
-    private static Supplier<Block> registerVerticalSlab(
-            String blockId,
-            Block blockToCopy
-    ) {
+    private static Supplier<Block> registerVerticalSlab(String blockId, Block blockToCopy) {
         return Services.REGISTRY_HELPER.registerBlock(
                 blockId,
                 VerticalSlabBlock::new,
-                BlockBehaviour.Properties.ofFullCopy(blockToCopy).noOcclusion()
+                BlockBehaviour.Properties.ofFullCopy(blockToCopy)
         );
     }
 
-    private static Supplier<Block> registerVerticalSlab(
-            String blockId,
-            BlockBehaviour.Properties properties
-    ) {
+    private static Supplier<Block> registerVerticalSlab(String blockId, BlockBehaviour.Properties properties) {
         return Services.REGISTRY_HELPER.registerBlock(
                 blockId,
                 VerticalSlabBlock::new,
-                properties.noOcclusion()
+                properties
         );
     }
 
-    private static Supplier<Block> registerMossyVerticalSlab(
-            String blockId,
-            Block blockToCopy
-    ) {
+    private static Supplier<Block> registerCopperVerticalSlab(String blockId, WeatheringCopper.WeatherState weatherState, Block blockToCopy) {
+        return Services.REGISTRY_HELPER.registerBlock(
+                blockId,
+                properties -> new WeatheringCopperVerticalSlabBlock(weatherState, properties),
+                BlockBehaviour.Properties.ofFullCopy(blockToCopy)
+        );
+    }
+
+    private static Supplier<Block> registerMossyVerticalSlab(String blockId, Block blockToCopy) {
         var optionalSupplier = registerVerticalSlabIfModIsLoaded(NEMOS_MOSSY_BLOCKS_MOD_ID, blockId, blockToCopy);
 
         return optionalSupplier.orElse(null);

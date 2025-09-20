@@ -1,4 +1,5 @@
-# Changelog v2.1
+# Changelog v2.1.1
 
-## Additions
-- Added support for Biomes O' Plenty
+## Changes
+- Copper Vertical Slabs can now oxidize and be waxed
+- Wooden Vertical Slabs can now burn and be used as fuel

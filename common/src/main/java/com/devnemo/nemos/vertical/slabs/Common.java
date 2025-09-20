@@ -1,16 +1,16 @@
 package com.devnemo.nemos.vertical.slabs;
 
-import com.devnemo.nemos.vertical.slabs.world.item.NemosVerticalCreativeModeTabs;
-import com.devnemo.nemos.vertical.slabs.world.item.NemosVerticalItems;
-import com.devnemo.nemos.vertical.slabs.world.level.block.NemosVerticalBlocks;
+import com.devnemo.nemos.vertical.slabs.world.item.VerticalCreativeModeTabs;
+import com.devnemo.nemos.vertical.slabs.world.item.VerticalSlabItems;
+import com.devnemo.nemos.vertical.slabs.world.level.block.VerticalSlabBlocks;
 
 public class Common {
 
     public static void init() {
         Constants.LOG.info("Thank you for using Nemo's Vertical Slabs");
 
-        NemosVerticalBlocks.init();
-        NemosVerticalItems.init();
-        NemosVerticalCreativeModeTabs.init();
+        VerticalSlabBlocks.init();
+        VerticalSlabItems.init();
+        VerticalCreativeModeTabs.init();
     }
 }

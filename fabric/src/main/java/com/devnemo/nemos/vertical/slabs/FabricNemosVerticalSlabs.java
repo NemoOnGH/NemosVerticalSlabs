@@ -1,6 +1,9 @@
 package com.devnemo.nemos.vertical.slabs;
 
 import com.devnemo.nemos.vertical.slabs.platform.Services;
+import com.devnemo.nemos.vertical.slabs.registry.FlammableBlocks;
+import com.devnemo.nemos.vertical.slabs.registry.FuelItems;
+import com.devnemo.nemos.vertical.slabs.registry.OxidizableBlocks;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
@@ -11,13 +14,17 @@ import net.minecraft.resources.ResourceLocation;
 import static com.devnemo.nemos.vertical.slabs.Constants.*;
 
 public class FabricNemosVerticalSlabs implements ModInitializer {
-    
+
     @Override
     public void onInitialize() {
         Common.init();
 
         registerBuiltInVerticalSlabsResourcePack(NEMOS_MOSSY_BLOCKS_MOD_ID, "mossy_vertical_slabs", "Mossy Vertical Slabs");
         registerBuiltInVerticalSlabsResourcePack(BIOMES_O_PLENTY_MOD_ID, "biomesoplenty_vertical_slabs", "Biomes O' Plenty Vertical Slabs");
+
+        OxidizableBlocks.init();
+        FlammableBlocks.init();
+        FuelItems.init();
     }
 
     private void registerBuiltInVerticalSlabsResourcePack(String modId, String packId, String packName) {
