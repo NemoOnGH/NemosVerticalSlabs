@@ -1,5 +1,7 @@
-# Changelog v2.1.1
+# Changelog v2.2
 
-## Changes
-- Copper Vertical Slabs can now oxidize and be waxed
-- Wooden Vertical Slabs can now burn and be used as fuel
+## Additions
+- Added vertical slabs for ...
+
+## Fixes
+- Moved loot tables to resource pack for mod comp to avoid error messages in console
