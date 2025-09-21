@@ -4,8 +4,8 @@ move_files() {
   local MOD_ID="$1"
   local DEST_NAME="$2"
 
-  local SRC_BASE="../common/src/generated/resources"
-  local DEST_BASE="../common/src/main/resources/resourcepacks/${DEST_NAME}"
+  local SRC_BASE="../src/main/generated"
+  local DEST_BASE="../src/main/resources/resourcepacks/${DEST_NAME}"
 
   local BLOCK_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/models/block"
   local ITEM_FOLDER="$SRC_BASE/assets/nemos_vertical_slabs/items"
@@ -61,3 +61,5 @@ move_files() {
 # Example usage
 move_files "nemos_mossy_blocks" "mossy_vertical_slabs"
 move_files "biomesoplenty" "biomesoplenty_vertical_slabs"
+
+# TODO: advancements and loot tables are not moved

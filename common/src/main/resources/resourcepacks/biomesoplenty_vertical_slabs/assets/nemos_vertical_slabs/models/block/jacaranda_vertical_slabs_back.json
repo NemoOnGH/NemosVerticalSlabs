@@ -1,8 +1,0 @@
-{
-  "parent": "nemos_vertical_slabs:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "biomesoplenty:block/jacaranda_planks",
-    "side": "biomesoplenty:block/jacaranda_planks",
-    "top": "biomesoplenty:block/jacaranda_planks"
-  }
-}
