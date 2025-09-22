@@ -72,7 +72,6 @@ def move_files_to_destination(block_ids: [], src_base: str, dest_id: str, path_s
                     break
 
             if should_move:
-                # Den Pfad innerhalb des Zielordners gleich zur Quelle machen
                 rel_path = os.path.relpath(file_path, src_base)
                 dest_base = f"../src/main/resources/resourcepacks/{dest_id}"
                 dest_path = os.path.join(dest_base, rel_path)
@@ -81,17 +80,18 @@ def move_files_to_destination(block_ids: [], src_base: str, dest_id: str, path_s
 def move_file(src, dest):
     if os.path.exists(dest):
         if filecmp.cmp(src, dest, shallow=False):
-            print(f"Dateien identisch, lösche neue: {src}")
+            print(f"Files identical, delete new one: {src}")
             os.remove(src)
         else:
-            print(f"Dateien unterschiedlich, ersetze alte: {dest}")
+            print(f"Files differ, replace old one: {dest}")
             os.remove(dest)
             shutil.move(src, dest)
     else:
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         shutil.move(src, dest)
-        print(f"Datei verschoben: {src} -> {dest}")
+        print(f"File moved: {src} -> {dest}")
 
 # Example usage
 move_files("nemos_mossy_blocks", "mossy_vertical_slabs")
 move_files("biomesoplenty", "biomesoplenty_vertical_slabs")
+move_files("biomeswevegone", "biomeswevegone_vertical_slabs")

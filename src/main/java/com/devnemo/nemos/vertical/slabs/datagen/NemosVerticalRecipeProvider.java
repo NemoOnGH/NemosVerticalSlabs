@@ -13,6 +13,7 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.potionstudios.biomeswevegone.world.level.block.wood.BWGWood;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -318,6 +319,32 @@ public class NemosVerticalRecipeProvider extends FabricRecipeProvider {
                 this.stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, VerticalSlabItems.CUT_BLACK_SANDSTONE_VERTICAL_SLAB, BOPItems.BLACK_SANDSTONE, 2);
                 this.stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, VerticalSlabItems.SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB, BOPItems.SMOOTH_BLACK_SANDSTONE, 2);
                 this.stonecutterResultFromBase(RecipeCategory.BUILDING_BLOCKS, VerticalSlabItems.CUT_BLACK_SANDSTONE_VERTICAL_SLAB, BOPItems.CUT_BLACK_SANDSTONE, 2);
+
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_ASPEN_VERTICAL_SLAB, BWGWood.ASPEN.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_BOABAB_VERTICAL_SLAB, BWGWood.BAOBAB.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_BLUE_ENCHANTED_VERTICAL_SLAB, BWGWood.BLUE_ENCHANTED.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_CIKA_VERTICAL_SLAB, BWGWood.CIKA.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_CYPRESS_VERTICAL_SLAB, BWGWood.CYPRESS.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_EBONY_VERTICAL_SLAB, BWGWood.EBONY.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_FIR_VERTICAL_SLAB, BWGWood.FIR.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_FLORUS_VERTICAL_SLAB, BWGWood.FLORUS.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_GREEN_ENCHANTED_VERTICAL_SLAB, BWGWood.GREEN_ENCHANTED.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_HOLLY_VERTICAL_SLAB, BWGWood.HOLLY.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_IRONWOOD_VERTICAL_SLAB, BWGWood.IRONWOOD.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_JACARANDA_VERTICAL_SLAB, BWGWood.JACARANDA.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAHOGANY_VERTICAL_SLAB, BWGWood.MAHOGANY.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAPLE_VERTICAL_SLAB, BWGWood.MAPLE.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_PALM_VERTICAL_SLAB, BWGWood.PALM.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_PINE_VERTICAL_SLAB, BWGWood.PINE.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_RAINBOW_EUCALYPTUS_VERTICAL_SLAB, BWGWood.RAINBOW_EUCALYPTUS.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_REDWOOD_VERTICAL_SLAB, BWGWood.REDWOOD.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_SAKURA_VERTICAL_SLAB, BWGWood.SAKURA.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_SKYRIS_VERTICAL_SLAB, BWGWood.SKYRIS.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_SPIRIT_VERTICAL_SLAB, BWGWood.SPIRIT.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_MANGROVE_VERTICAL_SLAB, BWGWood.WHITE_MANGROVE.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB, BWGWood.WILLOW.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB, BWGWood.WITCH_HAZEL.planks());
+                createWoodenVerticalSlabRecipe(VerticalSlabBlocks.BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB, BWGWood.ZELKOVA.planks());
             }
 
             public void createWoodenVerticalSlabRecipe(ItemLike result, ItemLike input) {

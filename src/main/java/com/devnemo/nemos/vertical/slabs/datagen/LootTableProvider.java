@@ -190,6 +190,32 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         addVerticalSlabDrops(VerticalSlabBlocks.UMBRAN_VERTICAL_SLAB);
         addVerticalSlabDrops(VerticalSlabBlocks.HELLBARK_VERTICAL_SLAB);
         addVerticalSlabDrops(VerticalSlabBlocks.EMPYREAL_VERTICAL_SLAB);
+
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_ASPEN_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_BOABAB_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_BLUE_ENCHANTED_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_CIKA_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_CYPRESS_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_EBONY_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_FIR_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_FLORUS_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_GREEN_ENCHANTED_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_HOLLY_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_IRONWOOD_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_JACARANDA_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAHOGANY_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAPLE_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_PALM_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_PINE_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_RAINBOW_EUCALYPTUS_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_REDWOOD_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_SAKURA_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_SKYRIS_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_SPIRIT_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_MANGROVE_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB);
+        addVerticalSlabDrops(VerticalSlabBlocks.BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB);
     }
 
     private void addVerticalSlabDrops(Block drop) {

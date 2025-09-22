@@ -21,6 +21,7 @@ public class NemosVerticalSlabs implements ModInitializer {
 	public static final String MOD_ID = "nemos_vertical_slabs";
 	public static final String NEMOS_MOSSY_BLOCKS_MOD_ID = "nemos_mossy_blocks";
 	public static final String BIOMES_O_PLENTY_MOD_ID = "biomesoplenty";
+	public static final String BIOMES_WEVE_GONE_MOD_ID = "biomeswevegone";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -33,6 +34,7 @@ public class NemosVerticalSlabs implements ModInitializer {
 
 		registerBuiltInVerticalSlabsResourcePack(NEMOS_MOSSY_BLOCKS_MOD_ID, "mossy_vertical_slabs", "Mossy Vertical Slabs");
 		registerBuiltInVerticalSlabsResourcePack(BIOMES_O_PLENTY_MOD_ID, "biomesoplenty_vertical_slabs", "Biomes O' Plenty Vertical Slabs");
+		registerBuiltInVerticalSlabsResourcePack(BIOMES_WEVE_GONE_MOD_ID, "biomeswevegone_vertical_slabs", "Oh The Biomes We've Gone Vertical Slabs");
 
 		OxidizableBlocks.init();
 		FlammableBlocks.init();

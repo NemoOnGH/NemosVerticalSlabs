@@ -185,5 +185,32 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(VerticalSlabBlocks.HELLBARK_VERTICAL_SLAB, "Hellbark Vertical Slab");
         translationBuilder.add(VerticalSlabBlocks.EMPYREAL_VERTICAL_SLAB, "Empyreal Vertical Slab");
         translationBuilder.add("resourcePack.nemos_vertical_slabs.biomesoplenty_vertical_slabs.description", "Contains all assets required for Biomes O' Plenty Vertical Slabs.");
+
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_ASPEN_VERTICAL_SLAB, "Aspen Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_BOABAB_VERTICAL_SLAB, "Baobab Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_BLUE_ENCHANTED_VERTICAL_SLAB, "Blue Enchanted Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_CIKA_VERTICAL_SLAB, "Cika Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_CYPRESS_VERTICAL_SLAB, "Cypress Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_EBONY_VERTICAL_SLAB, "Ebony Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_FIR_VERTICAL_SLAB, "Fir Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_FLORUS_VERTICAL_SLAB, "Florus Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_GREEN_ENCHANTED_VERTICAL_SLAB, "Green Enchanted Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_HOLLY_VERTICAL_SLAB, "Holly Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_IRONWOOD_VERTICAL_SLAB, "Ironwood Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_JACARANDA_VERTICAL_SLAB, "Jacaranda Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAHOGANY_VERTICAL_SLAB, "Mahogany Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_MAPLE_VERTICAL_SLAB, "Maple Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_PALM_VERTICAL_SLAB, "Palm Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_PINE_VERTICAL_SLAB, "Pine Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_RAINBOW_EUCALYPTUS_VERTICAL_SLAB, "Rainbow Eucalyptus Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_REDWOOD_VERTICAL_SLAB, "Redwood Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_SAKURA_VERTICAL_SLAB, "Sakura Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_SKYRIS_VERTICAL_SLAB, "Skyris Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_SPIRIT_VERTICAL_SLAB, "Spirit Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_MANGROVE_VERTICAL_SLAB, "White Mangrove Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB, "Willow Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB, "Witch Hazel Vertical Slab");
+        translationBuilder.add(VerticalSlabBlocks.BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB, "Zelkova Vertical Slab");
+        translationBuilder.add("resourcePack.nemos_vertical_slabs.biomeswevegone_vertical_slabs.description", "Contains all assets required for Oh The Biomes We've Gone Vertical Slabs.");
     }
 }

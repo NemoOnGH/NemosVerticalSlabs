@@ -14,7 +14,6 @@ import net.minecraft.world.level.material.MapColor;
 
 import java.util.Optional;
 import java.util.function.Function;
-import java.util.function.Supplier;
 
 import static com.devnemo.nemos.vertical.slabs.NemosVerticalSlabs.*;
 import static net.minecraft.world.level.block.Blocks.*;
@@ -23,429 +22,569 @@ public class VerticalSlabBlocks {
 
     public static final Block OAK_VERTICAL_SLAB = registerVerticalSlab(
             "oak_vertical_slab",
-            OAK_SLAB);
+            OAK_SLAB
+    );
     public static final Block SPRUCE_VERTICAL_SLAB = registerVerticalSlab(
             "spruce_vertical_slab",
-            SPRUCE_SLAB);
+            SPRUCE_SLAB
+    );
     public static final Block BIRCH_VERTICAL_SLAB = registerVerticalSlab(
             "birch_vertical_slab",
-            BIRCH_SLAB);
+            BIRCH_SLAB
+    );
     public static final Block JUNGLE_VERTICAL_SLAB = registerVerticalSlab(
             "jungle_vertical_slab",
-            JUNGLE_SLAB);
+            JUNGLE_SLAB
+    );
     public static final Block ACACIA_VERTICAL_SLAB = registerVerticalSlab(
             "acacia_vertical_slab",
-            ACACIA_SLAB);
+            ACACIA_SLAB
+    );
     public static final Block DARK_OAK_VERTICAL_SLAB = registerVerticalSlab(
             "dark_oak_vertical_slab",
-            DARK_OAK_SLAB);
+            DARK_OAK_SLAB
+    );
     public static final Block MANGROVE_VERTICAL_SLAB = registerVerticalSlab(
             "mangrove_vertical_slab",
-            MANGROVE_SLAB);
+            MANGROVE_SLAB
+    );
     public static final Block CHERRY_VERTICAL_SLAB = registerVerticalSlab(
             "cherry_vertical_slab",
-            CHERRY_SLAB);
+            CHERRY_SLAB
+    );
     public static final Block PALE_OAK_VERTICAL_SLAB = registerVerticalSlab(
             "pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
+            PALE_OAK_SLAB
+    );
     public static final Block BAMBOO_VERTICAL_SLAB = registerVerticalSlab(
             "bamboo_vertical_slab",
-            BAMBOO_SLAB);
+            BAMBOO_SLAB
+    );
     public static final Block BAMBOO_MOSAIC_VERTICAL_SLAB = registerVerticalSlab(
             "bamboo_mosaic_vertical_slab",
-            BAMBOO_MOSAIC_SLAB);
+            BAMBOO_MOSAIC_SLAB
+    );
     public static final Block CRIMSON_VERTICAL_SLAB = registerVerticalSlab(
             "crimson_vertical_slab",
-            CRIMSON_SLAB);
+            CRIMSON_SLAB
+    );
     public static final Block WARPED_VERTICAL_SLAB = registerVerticalSlab(
             "warped_vertical_slab",
-            WARPED_SLAB);
+            WARPED_SLAB
+    );
     public static final Block STONE_VERTICAL_SLAB = registerVerticalSlab(
             "stone_vertical_slab",
-            STONE_SLAB);
+            STONE_SLAB
+    );
     public static final Block COBBLESTONE_VERTICAL_SLAB = registerVerticalSlab(
             "cobblestone_vertical_slab",
-            COBBLESTONE_SLAB);
+            COBBLESTONE_SLAB
+    );
     public static final Block MOSSY_COBBLESTONE_VERTICAL_SLAB = registerVerticalSlab(
             "mossy_cobblestone_vertical_slab",
-            MOSSY_COBBLESTONE_SLAB);
+            MOSSY_COBBLESTONE_SLAB
+    );
     public static final Block SMOOTH_STONE_VERTICAL_SLAB = registerVerticalSlab(
             "smooth_stone_vertical_slab",
-            SMOOTH_STONE_SLAB);
+            SMOOTH_STONE_SLAB
+    );
     public static final Block STONE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "stone_brick_vertical_slab",
-            STONE_BRICK_SLAB);
+            STONE_BRICK_SLAB
+    );
     public static final Block MOSSY_STONE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "mossy_stone_brick_vertical_slab",
-            MOSSY_STONE_BRICK_SLAB);
+            MOSSY_STONE_BRICK_SLAB
+    );
     public static final Block GRANITE_VERTICAL_SLAB = registerVerticalSlab(
             "granite_vertical_slab",
-            GRANITE_SLAB);
+            GRANITE_SLAB
+    );
     public static final Block POLISHED_GRANITE_VERTICAL_SLAB = registerVerticalSlab(
             "polished_granite_vertical_slab",
-            POLISHED_GRANITE_SLAB);
+            POLISHED_GRANITE_SLAB
+    );
     public static final Block DIORITE_VERTICAL_SLAB = registerVerticalSlab(
             "diorite_vertical_slab",
-            DIORITE_SLAB);
+            DIORITE_SLAB
+    );
     public static final Block POLISHED_DIORITE_VERTICAL_SLAB = registerVerticalSlab(
             "polished_diorite_vertical_slab",
-            POLISHED_DIORITE_SLAB);
+            POLISHED_DIORITE_SLAB
+    );
     public static final Block ANDESITE_VERTICAL_SLAB = registerVerticalSlab(
             "andesite_vertical_slab",
-            ANDESITE_SLAB);
+            ANDESITE_SLAB
+    );
     public static final Block POLISHED_ANDESITE_VERTICAL_SLAB = registerVerticalSlab(
             "polished_andesite_vertical_slab",
-            POLISHED_ANDESITE_SLAB);
+            POLISHED_ANDESITE_SLAB
+    );
     public static final Block COBBLED_DEEPSLATE_VERTICAL_SLAB = registerVerticalSlab(
             "cobbled_deepslate_vertical_slab",
-            COBBLED_DEEPSLATE_SLAB);
+            COBBLED_DEEPSLATE_SLAB
+    );
     public static final Block POLISHED_DEEPSLATE_VERTICAL_SLAB = registerVerticalSlab(
             "polished_deepslate_vertical_slab",
-            POLISHED_DEEPSLATE_SLAB);
+            POLISHED_DEEPSLATE_SLAB
+    );
     public static final Block DEEPSLATE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "deepslate_brick_vertical_slab",
-            DEEPSLATE_BRICK_SLAB);
+            DEEPSLATE_BRICK_SLAB
+    );
     public static final Block DEEPSLATE_TILE_VERTICAL_SLAB = registerVerticalSlab(
             "deepslate_tile_vertical_slab",
-            DEEPSLATE_TILE_SLAB);
+            DEEPSLATE_TILE_SLAB
+    );
     public static final Block TUFF_VERTICAL_SLAB = registerVerticalSlab(
             "tuff_vertical_slab",
-            TUFF_SLAB);
+            TUFF_SLAB
+    );
     public static final Block POLISHED_TUFF_VERTICAL_SLAB = registerVerticalSlab(
             "polished_tuff_vertical_slab",
-            POLISHED_TUFF_SLAB);
+            POLISHED_TUFF_SLAB
+    );
     public static final Block TUFF_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "tuff_brick_vertical_slab",
-            TUFF_BRICK_SLAB);
+            TUFF_BRICK_SLAB
+    );
     public static final Block BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "brick_vertical_slab",
-            BRICK_SLAB);
+            BRICK_SLAB
+    );
     public static final Block MUD_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "mud_brick_vertical_slab",
-            MUD_BRICK_SLAB);
+            MUD_BRICK_SLAB
+    );
     public static final Block SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "sandstone_vertical_slab",
-            SANDSTONE_SLAB);
+            SANDSTONE_SLAB
+    );
     public static final Block SMOOTH_SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "smooth_sandstone_vertical_slab",
-            SMOOTH_SANDSTONE_SLAB);
+            SMOOTH_SANDSTONE_SLAB
+    );
     public static final Block CUT_SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "cut_sandstone_vertical_slab",
-            CUT_SANDSTONE_SLAB);
+            CUT_SANDSTONE_SLAB
+    );
     public static final Block RED_SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "red_sandstone_vertical_slab",
-            RED_SANDSTONE_SLAB);
+            RED_SANDSTONE_SLAB
+    );
     public static final Block SMOOTH_RED_SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "smooth_red_sandstone_vertical_slab",
-            SMOOTH_RED_SANDSTONE_SLAB);
+            SMOOTH_RED_SANDSTONE_SLAB
+    );
     public static final Block CUT_RED_SANDSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "cut_red_sandstone_vertical_slab",
-            CUT_RED_SANDSTONE_SLAB);
+            CUT_RED_SANDSTONE_SLAB
+    );
     public static final Block PRISMARINE_VERTICAL_SLAB = registerVerticalSlab(
             "prismarine_vertical_slab",
-            PRISMARINE_SLAB);
+            PRISMARINE_SLAB
+    );
     public static final Block PRISMARINE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "prismarine_brick_vertical_slab",
-            PRISMARINE_BRICK_SLAB);
+            PRISMARINE_BRICK_SLAB
+    );
     public static final Block DARK_PRISMARINE_VERTICAL_SLAB = registerVerticalSlab(
             "dark_prismarine_vertical_slab",
-            DARK_PRISMARINE_SLAB);
+            DARK_PRISMARINE_SLAB
+    );
     public static final Block NETHER_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "nether_brick_vertical_slab",
-            NETHER_BRICK_SLAB);
+            NETHER_BRICK_SLAB
+    );
     public static final Block RED_NETHER_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "red_nether_brick_vertical_slab",
-            RED_NETHER_BRICK_SLAB);
+            RED_NETHER_BRICK_SLAB
+    );
     public static final Block BLACKSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "blackstone_vertical_slab",
-            BLACKSTONE_SLAB);
+            BLACKSTONE_SLAB
+    );
     public static final Block POLISHED_BLACKSTONE_VERTICAL_SLAB = registerVerticalSlab(
             "polished_blackstone_vertical_slab",
-            POLISHED_BLACKSTONE_SLAB);
+            POLISHED_BLACKSTONE_SLAB
+    );
     public static final Block POLISHED_BLACKSTONE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "polished_blackstone_brick_vertical_slab",
-            POLISHED_BLACKSTONE_BRICK_SLAB);
+            POLISHED_BLACKSTONE_BRICK_SLAB
+    );
     public static final Block END_STONE_BRICK_VERTICAL_SLAB = registerVerticalSlab(
             "end_stone_brick_vertical_slab",
-            END_STONE_BRICK_SLAB);
+            END_STONE_BRICK_SLAB
+    );
     public static final Block PURPUR_VERTICAL_SLAB = registerVerticalSlab(
             "purpur_vertical_slab",
-            PURPUR_SLAB);
+            PURPUR_SLAB
+    );
     public static final Block QUARTZ_VERTICAL_SLAB = registerVerticalSlab(
             "quartz_vertical_slab",
-            QUARTZ_SLAB);
+            QUARTZ_SLAB
+    );
     public static final Block SMOOTH_QUARTZ_VERTICAL_SLAB = registerVerticalSlab(
             "smooth_quartz_vertical_slab",
-            SMOOTH_QUARTZ_SLAB);
+            SMOOTH_QUARTZ_SLAB
+    );
     public static final Block CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "cut_copper_vertical_slab",
             WeatheringCopper.WeatherState.UNAFFECTED,
-            CUT_COPPER_SLAB);
+            CUT_COPPER_SLAB
+    );
     public static final Block EXPOSED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "exposed_cut_copper_vertical_slab",
             WeatheringCopper.WeatherState.EXPOSED,
-            EXPOSED_CUT_COPPER_SLAB);
+            EXPOSED_CUT_COPPER_SLAB
+    );
     public static final Block WEATHERED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "weathered_cut_copper_vertical_slab",
             WeatheringCopper.WeatherState.WEATHERED,
-            WEATHERED_CUT_COPPER_SLAB);
+            WEATHERED_CUT_COPPER_SLAB
+    );
     public static final Block OXIDIZED_CUT_COPPER_VERTICAL_SLAB = registerCopperVerticalSlab(
             "oxidized_cut_copper_vertical_slab",
             WeatheringCopper.WeatherState.OXIDIZED,
-            OXIDIZED_CUT_COPPER_SLAB);
+            OXIDIZED_CUT_COPPER_SLAB
+    );
     public static final Block WAXED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
             "waxed_cut_copper_vertical_slab",
-            WAXED_CUT_COPPER_SLAB);
+            WAXED_CUT_COPPER_SLAB
+    );
     public static final Block WAXED_EXPOSED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
             "waxed_exposed_cut_copper_vertical_slab",
-            WAXED_EXPOSED_CUT_COPPER_SLAB);
+            WAXED_EXPOSED_CUT_COPPER_SLAB
+    );
     public static final Block WAXED_WEATHERED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
             "waxed_weathered_cut_copper_vertical_slab",
-            WAXED_WEATHERED_CUT_COPPER_SLAB);
+            WAXED_WEATHERED_CUT_COPPER_SLAB
+    );
     public static final Block WAXED_OXIDIZED_CUT_COPPER_VERTICAL_SLAB = registerVerticalSlab(
             "waxed_oxidized_cut_copper_vertical_slab",
-            WAXED_OXIDIZED_CUT_COPPER_SLAB);
+            WAXED_OXIDIZED_CUT_COPPER_SLAB
+    );
 
     public static final Block MOSSY_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_oak_vertical_slab",
-            OAK_SLAB);
+            OAK_SLAB
+    );
     public static final Block MOSSY_SPRUCE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_spruce_vertical_slab",
-            SPRUCE_SLAB);
+            SPRUCE_SLAB
+    );
     public static final Block MOSSY_BIRCH_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_birch_vertical_slab",
-            BIRCH_SLAB);
+            BIRCH_SLAB
+    );
     public static final Block MOSSY_JUNGLE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_jungle_vertical_slab",
-            JUNGLE_SLAB);
+            JUNGLE_SLAB
+    );
     public static final Block MOSSY_ACACIA_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_acacia_vertical_slab",
-            ACACIA_SLAB);
+            ACACIA_SLAB
+    );
     public static final Block MOSSY_DARK_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_dark_oak_vertical_slab",
-            DARK_OAK_SLAB);
+            DARK_OAK_SLAB
+    );
     public static final Block MOSSY_MANGROVE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_mangrove_vertical_slab",
-            MANGROVE_SLAB);
+            MANGROVE_SLAB
+    );
     public static final Block MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_cherry_vertical_slab",
-            CHERRY_SLAB);
+            CHERRY_SLAB
+    );
     public static final Block MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
+            PALE_OAK_SLAB
+    );
     public static final Block MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_bamboo_vertical_slab",
-            BAMBOO_SLAB);
+            BAMBOO_SLAB
+    );
     public static final Block MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_bamboo_mosaic_vertical_slab",
-            BAMBOO_MOSAIC_SLAB);
+            BAMBOO_MOSAIC_SLAB
+    );
     public static final Block MOSSY_CRIMSON_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_crimson_vertical_slab",
-            CRIMSON_SLAB);
+            CRIMSON_SLAB
+    );
     public static final Block MOSSY_WARPED_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_warped_vertical_slab",
-            WARPED_SLAB);
+            WARPED_SLAB
+    );
     public static final Block MOSSY_STONE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_stone_vertical_slab",
-            STONE_SLAB);
+            STONE_SLAB
+    );
     public static final Block MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_cobbled_deepslate_vertical_slab",
-            COBBLED_DEEPSLATE_SLAB);
+            COBBLED_DEEPSLATE_SLAB
+    );
     public static final Block MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_deepslate_brick_vertical_slab",
-            DEEPSLATE_BRICK_SLAB);
+            DEEPSLATE_BRICK_SLAB
+    );
     public static final Block MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_deepslate_tile_vertical_slab",
-            DEEPSLATE_TILE_SLAB);
+            DEEPSLATE_TILE_SLAB
+    );
     public static final Block MOSSY_TUFF_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_tuff_vertical_slab",
-            TUFF_SLAB);
+            TUFF_SLAB
+    );
     public static final Block MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_tuff_brick_vertical_slab",
-            TUFF_BRICK_SLAB);
+            TUFF_BRICK_SLAB
+    );
     public static final Block MOSSY_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "mossy_brick_vertical_slab",
-            BRICK_SLAB);
+            BRICK_SLAB
+    );
     public static final Block PALE_MOSSY_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_oak_vertical_slab",
-            OAK_SLAB);
+            OAK_SLAB
+    );
     public static final Block PALE_MOSSY_SPRUCE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_spruce_vertical_slab",
-            SPRUCE_SLAB);
+            SPRUCE_SLAB
+    );
     public static final Block PALE_MOSSY_BIRCH_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_birch_vertical_slab",
-            BIRCH_SLAB);
+            BIRCH_SLAB
+    );
     public static final Block PALE_MOSSY_JUNGLE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_jungle_vertical_slab",
-            JUNGLE_SLAB);
+            JUNGLE_SLAB
+    );
     public static final Block PALE_MOSSY_ACACIA_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_acacia_vertical_slab",
-            ACACIA_SLAB);
+            ACACIA_SLAB
+    );
     public static final Block PALE_MOSSY_DARK_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_dark_oak_vertical_slab",
-            DARK_OAK_SLAB);
+            DARK_OAK_SLAB
+    );
     public static final Block PALE_MOSSY_MANGROVE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_mangrove_vertical_slab",
-            MANGROVE_SLAB);
+            MANGROVE_SLAB
+    );
     public static final Block PALE_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_cherry_vertical_slab",
-            CHERRY_SLAB);
+            CHERRY_SLAB
+    );
     public static final Block PALE_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
+            PALE_OAK_SLAB
+    );
     public static final Block PALE_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_bamboo_vertical_slab",
-            BAMBOO_SLAB);
+            BAMBOO_SLAB
+    );
     public static final Block PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_bamboo_mosaic_vertical_slab",
-            BAMBOO_MOSAIC_SLAB);
+            BAMBOO_MOSAIC_SLAB
+    );
     public static final Block PALE_MOSSY_CRIMSON_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_crimson_vertical_slab",
-            CRIMSON_SLAB);
+            CRIMSON_SLAB
+    );
     public static final Block PALE_MOSSY_WARPED_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_warped_vertical_slab",
-            WARPED_SLAB);
+            WARPED_SLAB
+    );
     public static final Block PALE_MOSSY_STONE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_stone_vertical_slab",
-            STONE_SLAB);
+            STONE_SLAB
+    );
     public static final Block PALE_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_cobbled_deepslate_vertical_slab",
-            COBBLED_DEEPSLATE_SLAB);
+            COBBLED_DEEPSLATE_SLAB
+    );
     public static final Block PALE_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_deepslate_brick_vertical_slab",
-            DEEPSLATE_BRICK_SLAB);
+            DEEPSLATE_BRICK_SLAB
+    );
     public static final Block PALE_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_deepslate_tile_vertical_slab",
-            DEEPSLATE_TILE_SLAB);
+            DEEPSLATE_TILE_SLAB
+    );
     public static final Block PALE_MOSSY_TUFF_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_tuff_vertical_slab",
-            TUFF_SLAB);
+            TUFF_SLAB
+    );
     public static final Block PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_tuff_brick_vertical_slab",
-            TUFF_BRICK_SLAB);
+            TUFF_BRICK_SLAB
+    );
     public static final Block PALE_MOSSY_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "pale_mossy_brick_vertical_slab",
-            BRICK_SLAB);
+            BRICK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_oak_vertical_slab",
-            OAK_SLAB);
+            OAK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_SPRUCE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_spruce_vertical_slab",
-            SPRUCE_SLAB);
+            SPRUCE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_BIRCH_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_birch_vertical_slab",
-            BIRCH_SLAB);
+            BIRCH_SLAB
+    );
     public static final Block CRIMSON_MOSSY_JUNGLE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_jungle_vertical_slab",
-            JUNGLE_SLAB);
+            JUNGLE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_ACACIA_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_acacia_vertical_slab",
-            ACACIA_SLAB);
+            ACACIA_SLAB
+    );
     public static final Block CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_dark_oak_vertical_slab",
-            DARK_OAK_SLAB);
+            DARK_OAK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_mangrove_vertical_slab",
-            MANGROVE_SLAB);
+            MANGROVE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_cherry_vertical_slab",
-            CHERRY_SLAB);
+            CHERRY_SLAB
+    );
     public static final Block CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
+            PALE_OAK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_bamboo_vertical_slab",
-            BAMBOO_SLAB);
+            BAMBOO_SLAB
+    );
     public static final Block CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_bamboo_mosaic_vertical_slab",
-            BAMBOO_MOSAIC_SLAB);
+            BAMBOO_MOSAIC_SLAB
+    );
     public static final Block CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_crimson_vertical_slab",
-            CRIMSON_SLAB);
+            CRIMSON_SLAB
+    );
     public static final Block CRIMSON_MOSSY_WARPED_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_warped_vertical_slab",
-            WARPED_SLAB);
+            WARPED_SLAB
+    );
     public static final Block CRIMSON_MOSSY_STONE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_stone_vertical_slab",
-            STONE_SLAB);
+            STONE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_cobbled_deepslate_vertical_slab",
-            COBBLED_DEEPSLATE_SLAB);
+            COBBLED_DEEPSLATE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_deepslate_brick_vertical_slab",
-            DEEPSLATE_BRICK_SLAB);
+            DEEPSLATE_BRICK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_deepslate_tile_vertical_slab",
-            DEEPSLATE_TILE_SLAB);
+            DEEPSLATE_TILE_SLAB
+    );
     public static final Block CRIMSON_MOSSY_TUFF_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_tuff_vertical_slab",
-            TUFF_SLAB);
+            TUFF_SLAB
+    );
     public static final Block CRIMSON_MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_tuff_brick_vertical_slab",
-            TUFF_BRICK_SLAB);
+            TUFF_BRICK_SLAB
+    );
     public static final Block CRIMSON_MOSSY_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "crimson_mossy_brick_vertical_slab",
-            BRICK_SLAB);
+            BRICK_SLAB
+    );
     public static final Block WARPED_MOSSY_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_oak_vertical_slab",
-            OAK_SLAB);
+            OAK_SLAB
+    );
     public static final Block WARPED_MOSSY_SPRUCE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_spruce_vertical_slab",
-            SPRUCE_SLAB);
+            SPRUCE_SLAB
+    );
     public static final Block WARPED_MOSSY_BIRCH_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_birch_vertical_slab",
-            BIRCH_SLAB);
+            BIRCH_SLAB
+    );
     public static final Block WARPED_MOSSY_JUNGLE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_jungle_vertical_slab",
-            JUNGLE_SLAB);
+            JUNGLE_SLAB
+    );
     public static final Block WARPED_MOSSY_ACACIA_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_acacia_vertical_slab",
-            ACACIA_SLAB);
+            ACACIA_SLAB
+    );
     public static final Block WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_dark_oak_vertical_slab",
-            DARK_OAK_SLAB);
+            DARK_OAK_SLAB
+    );
     public static final Block WARPED_MOSSY_MANGROVE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_mangrove_vertical_slab",
-            MANGROVE_SLAB);
+            MANGROVE_SLAB
+    );
     public static final Block WARPED_MOSSY_CHERRY_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_cherry_vertical_slab",
-            CHERRY_SLAB);
+            CHERRY_SLAB
+    );
     public static final Block WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_pale_oak_vertical_slab",
-            PALE_OAK_SLAB);
+            PALE_OAK_SLAB
+    );
     public static final Block WARPED_MOSSY_BAMBOO_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_bamboo_vertical_slab",
-            BAMBOO_SLAB);
+            BAMBOO_SLAB
+    );
     public static final Block WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_bamboo_mosaic_vertical_slab",
-            BAMBOO_MOSAIC_SLAB);
+            BAMBOO_MOSAIC_SLAB
+    );
     public static final Block WARPED_MOSSY_CRIMSON_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_crimson_vertical_slab",
-            CRIMSON_SLAB);
+            CRIMSON_SLAB
+    );
     public static final Block WARPED_MOSSY_WARPED_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_warped_vertical_slab",
-            WARPED_SLAB);
+            WARPED_SLAB
+    );
     public static final Block WARPED_MOSSY_STONE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_stone_vertical_slab",
-            STONE_SLAB);
+            STONE_SLAB
+    );
     public static final Block WARPED_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_cobbled_deepslate_vertical_slab",
-            COBBLED_DEEPSLATE_SLAB);
+            COBBLED_DEEPSLATE_SLAB
+    );
     public static final Block WARPED_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_deepslate_brick_vertical_slab",
-            DEEPSLATE_BRICK_SLAB);
+            DEEPSLATE_BRICK_SLAB
+    );
     public static final Block WARPED_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_deepslate_tile_vertical_slab",
-            DEEPSLATE_TILE_SLAB);
+            DEEPSLATE_TILE_SLAB
+    );
     public static final Block WARPED_MOSSY_TUFF_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_tuff_vertical_slab",
-            TUFF_SLAB);
+            TUFF_SLAB
+    );
     public static final Block WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_tuff_brick_vertical_slab",
-            TUFF_BRICK_SLAB);
+            TUFF_BRICK_SLAB
+    );
     public static final Block WARPED_MOSSY_BRICK_VERTICAL_SLAB = registerMossyVerticalSlab(
             "warped_mossy_brick_vertical_slab",
-            BRICK_SLAB);
+            BRICK_SLAB
+    );
 
     public static final Block CUT_WHITE_SANDSTONE_VERTICAL_SLAB = registerBopVerticalSlab(
             "cut_white_sandstone_vertical_slab",
@@ -537,7 +676,108 @@ public class VerticalSlabBlocks {
     );
     public static final Block EMPYREAL_VERTICAL_SLAB = registerBopVerticalSlab(
             "empyreal_vertical_slab",
-            BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASS).ignitedByLava().mapColor(MapColor.COLOR_PURPLE).strength(2.0F, 3.0F).sound(SoundType.NETHER_WOOD)
+            createWoodenVerticalSlabProperties(MapColor.COLOR_PURPLE, SoundType.NETHER_WOOD)
+    );
+
+    public static final Block BIOMES_WEVE_GONE_ASPEN_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_aspen_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.QUARTZ, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_BOABAB_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_baobab_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_BLUE_ENCHANTED_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_blue_enchanted_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.COLOR_BLUE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_CIKA_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cika_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_CYPRESS_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cypress_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_EBONY_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_ebony_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_FIR_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_fir_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_FLORUS_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_florus_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_GREEN_ENCHANTED_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_green_enchanted_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_HOLLY_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_holly_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_IRONWOOD_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_ironwood_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_JACARANDA_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_jacaranda_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_MAHOGANY_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_mahogany_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_MAPLE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_maple_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_PALM_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_palm_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_PINE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_pine_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_RAINBOW_EUCALYPTUS_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_rainbow_eucalyptus_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_REDWOOD_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_redwood_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_SAKURA_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_sakura_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_SKYRIS_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_skyris_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_SPIRIT_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_spirit_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_MANGROVE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_mangrove_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_willow_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_witch_hazel_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_zelkova_vertical_slab",
+            createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
     );
 
     public static void init() {
@@ -574,7 +814,10 @@ public class VerticalSlabBlocks {
 
     private static Block registerBopVerticalSlab(String blockId, BlockBehaviour.Properties properties) {
         return registerVerticalSlabIfModIsLoaded(BIOMES_O_PLENTY_MOD_ID, blockId, properties).orElse(null);
+    }
 
+    private static Block registerBWGVerticalSlab(String blockId, BlockBehaviour.Properties properties) {
+        return registerVerticalSlabIfModIsLoaded(BIOMES_WEVE_GONE_MOD_ID, blockId, properties).orElse(null);
     }
 
     private static Optional<Block> registerVerticalSlabIfModIsLoaded(
@@ -605,18 +848,17 @@ public class VerticalSlabBlocks {
         return Optional.of(registerVerticalSlab(blockId, properties));
     }
 
+    private static BlockBehaviour.Properties createWoodenVerticalSlabProperties(MapColor mapColor, SoundType soundType) {
+        return BlockBehaviour.Properties.of()
+                .mapColor(mapColor)
+                .instrument(NoteBlockInstrument.BASS)
+                .strength(2.0F, 3.0F)
+                .sound(soundType)
+                .ignitedByLava();
+    }
+
     public static Block registerBlock(String id, Function<BlockBehaviour.Properties, Block> function, BlockBehaviour.Properties properties) {
         return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties.setId(key)));
-    }
-
-    public static Block registerBlock(String id, Function<BlockBehaviour.Properties, Block> function, Supplier<BlockBehaviour.Properties> properties) {
-        return registerSupplierWithResourceKey(BuiltInRegistries.BLOCK, id, key -> function.apply(properties.get().setId(key)));
-    }
-
-    private static <T, R extends Registry<? super T>> T registerSupplier(R registry, String id, Supplier<T> object) {
-        final var resourceLocation = ResourceLocation.fromNamespaceAndPath(MOD_ID, id);
-
-        return Registry.register((Registry<T>) registry, resourceLocation, object.get());
     }
 
     private static <T, R extends Registry<T>> T registerSupplierWithResourceKey(R registry, String id, Function<ResourceKey<T>, T> object) {

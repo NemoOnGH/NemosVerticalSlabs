@@ -18,8 +18,10 @@ import net.minecraft.client.data.models.model.ModelLocationUtils;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TextureSlot;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.potionstudios.biomeswevegone.world.level.block.wood.BWGWood;
 
 import static net.minecraft.client.data.models.BlockModelGenerators.plainVariant;
 
@@ -200,6 +202,32 @@ public class ModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.UMBRAN_PLANKS, VerticalSlabBlocks.UMBRAN_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.HELLBARK_PLANKS, VerticalSlabBlocks.HELLBARK_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, BOPBlocks.EMPYREAL_PLANKS, VerticalSlabBlocks.EMPYREAL_VERTICAL_SLAB);
+
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.ASPEN.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_ASPEN_VERTICAL_SLAB, "aspen/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.BAOBAB.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_BOABAB_VERTICAL_SLAB, "baobab/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.BLUE_ENCHANTED.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_BLUE_ENCHANTED_VERTICAL_SLAB, "blue_enchanted/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.CIKA.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CIKA_VERTICAL_SLAB, "cika/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.CYPRESS.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CYPRESS_VERTICAL_SLAB, "cypress/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.EBONY.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_EBONY_VERTICAL_SLAB, "ebony/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.FIR.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_FIR_VERTICAL_SLAB, "fir/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.FLORUS.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_FLORUS_VERTICAL_SLAB, "florus/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.GREEN_ENCHANTED.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_GREEN_ENCHANTED_VERTICAL_SLAB, "green_enchanted/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.HOLLY.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_HOLLY_VERTICAL_SLAB, "holly/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.IRONWOOD.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_IRONWOOD_VERTICAL_SLAB, "ironwood/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.JACARANDA.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_JACARANDA_VERTICAL_SLAB, "jacaranda/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.MAHOGANY.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MAHOGANY_VERTICAL_SLAB, "mahogany/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.MAPLE.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MAPLE_VERTICAL_SLAB, "maple/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.PALM.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_PALM_VERTICAL_SLAB, "palm/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.PINE.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_PINE_VERTICAL_SLAB, "pine/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.RAINBOW_EUCALYPTUS.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_RAINBOW_EUCALYPTUS_VERTICAL_SLAB, "rainbow_eucalyptus/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.REDWOOD.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_REDWOOD_VERTICAL_SLAB, "redwood/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.SAKURA.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_SAKURA_VERTICAL_SLAB, "sakura/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.SKYRIS.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_SKYRIS_VERTICAL_SLAB, "skyris/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.SPIRIT.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_SPIRIT_VERTICAL_SLAB, "spirit/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.WHITE_MANGROVE.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_MANGROVE_VERTICAL_SLAB, "white_mangrove/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.WILLOW.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB, "willow/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.WITCH_HAZEL.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB, "witch_hazel/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.ZELKOVA.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB, "zelkova/planks");
     }
 
     @Override
@@ -228,13 +256,31 @@ public class ModelProvider extends FabricModelProvider {
     }
 
     private void generateVerticalSlabBlockModel(BlockModelGenerators blockModelGenerators, Block textureBlock, Block block) {
-        var textureMapping = new TextureMapping().put(TextureSlot.TOP, TextureMapping.getBlockTexture(textureBlock))
-                .put(TextureSlot.SIDE, TextureMapping.getBlockTexture(textureBlock))
-                .put(TextureSlot.BOTTOM, TextureMapping.getBlockTexture(textureBlock))
-                .put(TextureSlot.PARTICLE, TextureMapping.getBlockTexture(textureBlock));
+
+        generateVerticalSlabBlockModel(blockModelGenerators, textureBlock, block, "");
+    }
+
+    private void generateVerticalSlabBlockModel(BlockModelGenerators blockModelGenerators, Block textureBlock, Block block, String path) {
+        var textureMapping = new TextureMapping().put(TextureSlot.TOP, getResourceLocationWithPath(textureBlock, path))
+                .put(TextureSlot.SIDE, getResourceLocationWithPath(textureBlock, path))
+                .put(TextureSlot.BOTTOM, getResourceLocationWithPath(textureBlock, path))
+                .put(TextureSlot.PARTICLE, getResourceLocationWithPath(textureBlock, path));
         var fullMultiVariant = plainVariant(ModelLocationUtils.getModelLocation(textureBlock));
 
         generateVerticalSlabBlockModel(blockModelGenerators, textureMapping, block, fullMultiVariant);
+    }
+
+    private ResourceLocation getResourceLocationWithPath(Block textureBlock, String path) {
+        return TextureMapping.getBlockTexture(textureBlock)
+                .withPath(oldPath -> retrieveNewPath(oldPath, path));
+    }
+
+    private String retrieveNewPath(String oldPath, String path) {
+        if (path.isEmpty()) {
+            return oldPath;
+        }
+
+        return "block/" + path;
     }
 
     private void generateVerticalSlabBlockModel(BlockModelGenerators blockModelGenerators, Block textureBlock, Block fullBlock, String suffix, Block block) {

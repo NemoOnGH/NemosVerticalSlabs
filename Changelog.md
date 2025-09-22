@@ -1,7 +1,7 @@
-# Changelog v2.2
+# Changelog – v2.2
 
 ## Additions
-- Added vertical slabs for ...
+- Added vertical slabs for *Oh The Biomes We've Gone*.
 
 ## Fixes
-- Moved loot tables to resource pack for mod comp to avoid error messages in console
+- Relocated loot tables to the resource pack for improved mod compatibility, preventing console error messages.
