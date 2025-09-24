@@ -9,7 +9,8 @@ For detailed information, check out the [wiki](https://wiki.devnemo.com/projects
 ## Supported Mods
 
 - [Nemo's Mossy Blocks](https://curseforge.com/minecraft/mc-mods/nemos-mossy-blocks)
-- [Boiomes O' Plenty](https://curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+- [Biomes O' Plenty](https://curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+- [Oh The Biomes We've Gone](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone)
 
 Support for additional mods may be added in the future. Suggestions are welcome!
 
