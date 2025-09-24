@@ -1,0 +1,8 @@
+{
+  "parent": "nemos_vertical_slabs:block/parent/vertical_slab_back",
+  "textures": {
+    "bottom": "biomeswevegone:block/rocky_stone",
+    "side": "biomeswevegone:block/rocky_stone",
+    "top": "biomeswevegone:block/rocky_stone"
+  }
+}

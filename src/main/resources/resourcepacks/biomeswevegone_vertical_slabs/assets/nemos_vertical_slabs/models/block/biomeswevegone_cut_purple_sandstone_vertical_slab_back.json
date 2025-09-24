@@ -1,0 +1,8 @@
+{
+  "parent": "nemos_vertical_slabs:block/parent/vertical_slab_back",
+  "textures": {
+    "bottom": "biomeswevegone:block/purple_sandstone_bottom",
+    "side": "biomeswevegone:block/cut_purple_sandstone",
+    "top": "biomeswevegone:block/purple_sandstone_top"
+  }
+}

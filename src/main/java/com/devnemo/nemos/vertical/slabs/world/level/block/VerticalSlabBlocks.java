@@ -6,6 +6,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.WeatheringCopper;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -778,6 +779,178 @@ public class VerticalSlabBlocks {
     public static final Block BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB = registerBWGVerticalSlab(
             "biomeswevegone_zelkova_vertical_slab",
             createWoodenVerticalSlabProperties(MapColor.TERRACOTTA_WHITE, SoundType.WOOD)
+    );
+    public static final Block BIOMES_WEVE_GONE_BLACK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_black_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_black_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_BLACK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_black_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_white_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_WHITE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_white_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_BLUE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_blue_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_BLUE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_blue_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_BLUE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_blue_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_PURPLE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_purple_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_PURPLE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_purple_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_PURPLE_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_purple_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_PINK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_pink_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_PINK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_pink_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_PINK_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_pink_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_WINDSWEPT_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_windswept_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_SMOOTH_WINDSWEPT_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_smooth_windswept_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CUT_WINDSWEPT_SANDSTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cut_windswept_sandstone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SANDSTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_DACITE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_dacite_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_CRACKED_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cracked_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_MOSSY_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_mossy_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_CHISELED_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_chiseled_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_DACITE_COBBLESTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_dacite_cobblestone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_DACITE_TILE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_dacite_tile_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_BROWN)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_DACITE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_dacite_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CRACKED_WHITE_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cracked_white_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_MOSSY_WHITE_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_mossy_white_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_CHISELED_WHITE_DACITE_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_chiseled_white_dacite_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_DACITE_COBBLESTONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_dacite_cobblestone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_WHITE_DACITE_TILE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_white_dacite_tile_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.TERRACOTTA_WHITE)
+    );
+    public static final Block BIOMES_WEVE_GONE_RED_ROCK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_red_rock_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_RED_ROCK_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_red_rock_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_CRACKED_RED_ROCK_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cracked_red_rock_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_MOSSY_RED_ROCK_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_mossy_red_rock_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_CHISELED_RED_ROCK_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_chiseled_red_rock_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_POLISHED_RED_ROCK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_polished_red_rock_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_RED_ROCK_TILE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_red_rock_tile_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).mapColor(MapColor.COLOR_RED)
+    );
+    public static final Block BIOMES_WEVE_GONE_MOSSY_STONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_mossy_stone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(MOSSY_COBBLESTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_ROCKY_STONE_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_rocky_stone_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(COBBLESTONE)
+    );
+    public static final Block BIOMES_WEVE_GONE_PALE_MUD_BRICK_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_pale_mud_brick_vertical_slab",
+            BlockBehaviour.Properties.ofFullCopy(MUD_BRICKS)
+    );
+    public static final Block BIOMES_WEVE_GONE_CATTAIL_THATCH_VERTICAL_SLAB = registerBWGVerticalSlab(
+            "biomeswevegone_cattail_thatch_vertical_slab",
+            BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.5F)
     );
 
     public static void init() {

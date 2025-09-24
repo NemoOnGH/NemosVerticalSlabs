@@ -21,6 +21,7 @@ import net.minecraft.client.data.models.model.TextureSlot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.potionstudios.biomeswevegone.world.level.block.BWGBlocks;
 import net.potionstudios.biomeswevegone.world.level.block.wood.BWGWood;
 
 import static net.minecraft.client.data.models.BlockModelGenerators.plainVariant;
@@ -228,6 +229,49 @@ public class ModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.WILLOW.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WILLOW_VERTICAL_SLAB, "willow/planks");
         generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.WITCH_HAZEL.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WITCH_HAZEL_VERTICAL_SLAB, "witch_hazel/planks");
         generateVerticalSlabBlockModel(blockModelGenerators, BWGWood.ZELKOVA.planks(), VerticalSlabBlocks.BIOMES_WEVE_GONE_ZELKOVA_VERTICAL_SLAB, "zelkova/planks");
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.BLACK_SAND_SET.getSandstone(), BWGBlocks.BLACK_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_BLACK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.BLACK_SAND_SET.getSandstone(), BWGBlocks.BLACK_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_BLACK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.BLACK_SAND_SET.getCutSandstone(), BWGBlocks.BLACK_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_BLACK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_SAND_SET.getSandstone(), BWGBlocks.WHITE_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_SAND_SET.getSandstone(), BWGBlocks.WHITE_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_WHITE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.WHITE_SAND_SET.getCutSandstone(), BWGBlocks.WHITE_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_WHITE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.BLUE_SAND_SET.getSandstone(), BWGBlocks.BLUE_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_BLUE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.BLUE_SAND_SET.getSandstone(), BWGBlocks.BLUE_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_BLUE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.BLUE_SAND_SET.getCutSandstone(), BWGBlocks.BLUE_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_BLUE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.PURPLE_SAND_SET.getSandstone(), BWGBlocks.PURPLE_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_PURPLE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.PURPLE_SAND_SET.getSandstone(), BWGBlocks.PURPLE_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_PURPLE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.PURPLE_SAND_SET.getCutSandstone(), BWGBlocks.PURPLE_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_PURPLE_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.PINK_SAND_SET.getSandstone(), BWGBlocks.PINK_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_PINK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.PINK_SAND_SET.getSandstone(), BWGBlocks.PINK_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_PINK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.PINK_SAND_SET.getCutSandstone(), BWGBlocks.PINK_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_PINK_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WINDSWEPT_SAND_SET.getSandstone(), BWGBlocks.WINDSWEPT_SAND_SET.getSandstone(), TOP_SUFFIX, "", BOTTOM_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_WINDSWEPT_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WINDSWEPT_SAND_SET.getSandstone(), BWGBlocks.WINDSWEPT_SAND_SET.getSmoothSandstone(), TOP_SUFFIX, VerticalSlabBlocks.BIOMES_WEVE_GONE_SMOOTH_WINDSWEPT_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModelForCutSandstone(blockModelGenerators, BWGBlocks.WINDSWEPT_SAND_SET.getCutSandstone(), BWGBlocks.WINDSWEPT_SAND_SET.getSandstone(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CUT_WINDSWEPT_SANDSTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.DACITE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_DACITE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CRACKED_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CRACKED_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.MOSSY_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MOSSY_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CHISELED_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CHISELED_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.DACITE_COBBLESTONE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_DACITE_COBBLESTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.DACITE_TILES_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_DACITE_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_DACITE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_DACITE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CRACKED_WHITE_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CRACKED_WHITE_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.MOSSY_WHITE_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MOSSY_WHITE_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CHISELED_WHITE_DACITE_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CHISELED_WHITE_DACITE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_DACITE_COBBLESTONE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_DACITE_COBBLESTONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.WHITE_DACITE_TILES_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_WHITE_DACITE_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.RED_ROCK_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_RED_ROCK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.RED_ROCK_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_RED_ROCK_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CRACKED_RED_ROCK_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CRACKED_RED_ROCK_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.MOSSY_RED_ROCK_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MOSSY_RED_ROCK_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CHISELED_RED_ROCK_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CHISELED_RED_ROCK_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.POLISHED_RED_ROCK_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_POLISHED_RED_ROCK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.RED_ROCK_TILES_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_RED_ROCK_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.MOSSY_STONE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_MOSSY_STONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.ROCKY_STONE_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_ROCKY_STONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.PALE_MUD_BRICKS_SET.getBase(), VerticalSlabBlocks.BIOMES_WEVE_GONE_PALE_MUD_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, BWGBlocks.CATTAIL_THATCH.get(), VerticalSlabBlocks.BIOMES_WEVE_GONE_CATTAIL_THATCH_VERTICAL_SLAB);
     }
 
     @Override

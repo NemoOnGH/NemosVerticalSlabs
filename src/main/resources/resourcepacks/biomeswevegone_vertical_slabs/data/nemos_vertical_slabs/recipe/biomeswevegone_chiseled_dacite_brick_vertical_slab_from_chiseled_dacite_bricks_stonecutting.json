@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "biomeswevegone:chiseled_dacite_bricks",
+  "result": {
+    "count": 2,
+    "id": "nemos_vertical_slabs:biomeswevegone_chiseled_dacite_brick_vertical_slab"
+  }
+}
